@@ -5,20 +5,22 @@
     <meta charset="utf-8">
     <meta name="description" content="Huy's Blog">
     <meta name="author" content="Le Van Huy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poor+Story" rel="stylesheet">
   </head>
   <body>
     <div id="container">
       <div id="header">
-        <span id="header_span1">Lê Văn Huy</span>
+        <span id="header__span1">Lê Văn Huy</span>
         <br>
-        <span id="header_span2">Sinh viên công nghệ thông tin, đại học công nghệ,<br>
+        <span id="header__span2">Sinh viên công nghệ thông tin, đại học công nghệ,<br>
         Đại học quốc gia Hà Nội</span>
       </div>
       <div id="navigation-bar">
         <ul>
-          <li><a href="#home">LE VAN HUY</a></li>
-          <li><a href="#github">Github</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="https://github.com/Huylv33">Github</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#about">About</a></li>
         </ul>
@@ -26,7 +28,7 @@
       <div id="content">
         <div id="main-content"> 
           <div class="card">
-            <h2>About me</h2>
+            <h2 style="color:#3c40c6">About me</h2>
             <div id="favorite-quote">
                "Try not to become a man of success, but rather try to become a man of value."
                <br>
@@ -44,7 +46,7 @@
                 </tr>
                 <tr>
                   <th>Giới tính</th>
-                  <td>Nam 100%</td>
+                  <td>Nam </td>
                 </tr>
                 <tr>
                   <th>Ngày sinh</th>
@@ -60,7 +62,50 @@
                 </tr>
               </table>
             </div>
-            
+            <div id="intro">
+              <h2>Giới thiệu sở thích, sở trường, kĩ năng</h2>
+              <div>
+                <h3>Sở thích</h3>
+                <p>Đọc sách, code, chơi game</p>
+                <div class="intro-line"></div>
+              </div>
+              <div>
+                <h3>Sở trường</h3>
+                <p>Nấu ăn, Đá bóng, chơi giải ô chữ</p>
+                <div class="intro-line"></div>
+              </div>
+              <div>
+                <h3>Kĩ năng</h3>
+                <p>C++, Java, Php: mức cơ bản :D</p>
+                <div class="intro-line"></div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="card"> 
+            <h2>Đóng góp ý kiến phản hồi</h2>
+            <form>
+              <div class="row">
+                <div class="col25">
+                  <label for="fname">Tên bạn</label>
+                </div>
+                <div class="col75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col25">
+                  <label for="fname">Ý kiến đóng góp</label>
+                </div>
+                <div class="col75">
+                  <textarea id="subject" name="comment" placeholder="Write something.." style="height:200px">
+                  </textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Đóng góp">
+              </div>
+            </form>
           </div>
         </div>
         <div id="right-content"> 
@@ -71,10 +116,10 @@
               <a href="https://www.facebook.com/lvahuy" target="_blank"><img src="facebook.png" width="40" height="40" /></a>
               <a href="https://plus.google.com/u/0/102615335284018201630" target="_blank"><img src="google-plus.png" width="40" height="40" /></a>
             </div>
-            </div>
+          </div>
           <div class="card">
             <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSupportGroupUET%2F%3Ffb_dtsg_ag%3DAdxXXnbVXEKeFIP8SpfJLMZHiww4AmGA4PqLrM9Ngcid6w%253AAdzR_CHYZFYMNa_Mr1zz02EG9e76ecAvwSm0L-B5Q6Ez2g&tabs=timeline&width=320&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-              width="250" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+              width="320" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
               allow="encrypted-media">
             </iframe>
           </div>
@@ -88,8 +133,18 @@
             </form>
           </div>
         </div>
+        
+      </div>
+      <div id="footer">
+        <p>Lê Văn Huy<br>
+          SĐT: 01629791188<br>  
+          Email: huyit12a5@gmail.com
+        </p>
+        <div id="footer__line">
+        </div>
+        <p>University of Engineering and Technology, VNU
+        </p>
       </div>
     </div>
-
   </body>
 </html>
